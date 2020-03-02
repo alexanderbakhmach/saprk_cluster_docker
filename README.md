@@ -34,6 +34,7 @@ Requirenment
  ```
  $ docker-compose up -d
  ```
+ ![Image7](im7.jpeg)
  If we open the http://hostname:8080 we will see all spark workers running
  ![Image3](im3.jpeg)
  ![Image4](im4.jpeg)
@@ -66,6 +67,7 @@ Let`s do it
 ```
 $ python3 src/compressor.py
 ```
+![Image6](im6.jpeg)
  Here we load our data as parquet
  It is better to store data such way because it reduce the data size and makes requests faster
  Because of we are working with csv file with is similar in structure with relation database tables
