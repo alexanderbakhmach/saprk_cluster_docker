@@ -1,4 +1,4 @@
-# Spark dokcer cluster with pyspark examples
+# Spark docker cluster with pyspark examples
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg)
 
 Here is example of multi-worker spark cluster for big data cumputations.
