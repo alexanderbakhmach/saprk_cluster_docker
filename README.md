@@ -70,3 +70,4 @@ Next we ready to test queries
 ```
 $ python3 src/examples.py
 ```
+![Build Status](im1.jpeg)
