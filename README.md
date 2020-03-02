@@ -70,4 +70,8 @@ Next we ready to test queries
 ```
 $ python3 src/examples.py
 ```
-![Build Status](im1.jpeg)
+![Image1](im1.jpeg)
+![Image2](im2.jpeg)
+![Image3](im3.jpeg)
+![Image4](im4.jpeg)
+![Image5](im5.jpeg)
