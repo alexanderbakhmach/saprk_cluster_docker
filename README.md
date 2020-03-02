@@ -34,6 +34,9 @@ Requirenment
  ```
  $ docker-compose up -d
  ```
+ If we open the http://hostname:8080 we will see all spark workers running
+ ![Image3](im3.jpeg)
+ ![Image4](im4.jpeg)
   Now we need to extract and download our *.csv data folder into the ./scr forder
   As the result we need to have the next structure
   - saprk_cluster_docke
@@ -55,6 +58,8 @@ Firstly lest make some research and figure out if our .csv files are structured 
 ```
 $ python3 src/check_samely.py
 ```
+![Image1](im1.jpeg)
+![Image2](im2.jpeg)
 We have no logs telling us that structure was not the same
 That mean that we can load all data in one thread
 Let`s do it
@@ -70,8 +75,5 @@ Next we ready to test queries
 ```
 $ python3 src/examples.py
 ```
-![Image1](im1.jpeg)
-![Image2](im2.jpeg)
-![Image3](im3.jpeg)
-![Image4](im4.jpeg)
+
 ![Image5](im5.jpeg)
